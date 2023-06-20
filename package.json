@@ -6,6 +6,7 @@
     "name": "MongoDB Inc",
     "email": "compass@mongodb.com"
   },
+  "version": "0.0.0",
   "shortcutFolderName": "MongoDB",
   "license": "SSPL",
   "scripts": {

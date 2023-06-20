@@ -1,5 +1,5 @@
 {
-  "name": "@mongodb-js/compass-logging",
+  "name": "@mongodb-js/cloud-compass-logging",
   "description": "Shared helpers for logging in Compass packages",
   "author": {
     "name": "MongoDB Inc",
