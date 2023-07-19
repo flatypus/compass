@@ -1,5 +1,5 @@
 {
-  "name": "storage-mixin",
+  "name": "@cloud-mongodb-js/storage-mixin",
   "description": "Ampersand model mixin to persist data via various storage backends",
   "bugs": {
     "url": "https://jira.mongodb.org/projects/COMPASS/issues",
@@ -39,7 +39,7 @@
     "test-ci-electron": "npm run test-electron"
   },
   "dependencies": {
-    "@mongodb-js/compass-logging": "^1.1.5",
+    "@mongodb-js/compass-logging": "npm:@cloud-mongodb-js/compass-logging^1.1.5",
     "ampersand-model": "^8.0.1",
     "ampersand-rest-collection": "^6.0.0",
     "async": "^3.2.2",

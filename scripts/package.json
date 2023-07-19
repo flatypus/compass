@@ -1,5 +1,5 @@
 {
-  "name": "@mongodb-js/compass-scripts",
+  "name": "@cloud-mongodb-js/compass-scripts",
   "description": "MongoDB Compass repo scripts",
   "author": {
     "name": "MongoDB Inc",
@@ -30,15 +30,15 @@
     "reformat": "npm run prettier -- --write . && npm run eslint . --fix"
   },
   "devDependencies": {
-    "@mongodb-js/eslint-config-compass": "^1.0.5",
-    "@mongodb-js/prettier-config-compass": "^1.0.0",
+    "@mongodb-js/eslint-config-compass": "npm:@cloud-mongodb-js/eslint-config-compass^1.0.5",
+    "@mongodb-js/prettier-config-compass": "npm:@cloud-mongodb-js/prettier-config-compass^1.0.0",
     "depcheck": "^1.4.1",
     "eslint": "^7.25.0",
     "prettier": "^2.7.1"
   },
   "dependencies": {
-    "@mongodb-js/devtools-docker-test-envs": "^1.2.4",
-    "@mongodb-js/webpack-config-compass": "^1.0.8",
+    "@mongodb-js/devtools-docker-test-envs": "npm:@cloud-mongodb-js/devtools-docker-test-envs^1.2.4",
+    "@mongodb-js/webpack-config-compass": "npm:@cloud-mongodb-js/webpack-config-compass^1.0.8",
     "chalk": "^4.1.2",
     "cross-spawn": "^7.0.3",
     "electron": "^22.3.10",

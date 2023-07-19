@@ -1,5 +1,5 @@
 {
-  "name": "hadron-app-registry",
+  "name": "@cloud-mongodb-js/hadron-app-registry",
   "description": "Hadron App Registry",
   "author": "Durran Jordan <durran@gmail.com>",
   "bugs": {
@@ -48,10 +48,10 @@
     "reflux": "^0.4.1"
   },
   "devDependencies": {
-    "@mongodb-js/eslint-config-compass": "^1.0.5",
-    "@mongodb-js/mocha-config-compass": "^1.1.1",
-    "@mongodb-js/prettier-config-compass": "^1.0.0",
-    "@mongodb-js/tsconfig-compass": "^1.0.2",
+    "@mongodb-js/eslint-config-compass": "npm:@cloud-mongodb-js/eslint-config-compass^1.0.5",
+    "@mongodb-js/mocha-config-compass": "npm:@cloud-mongodb-js/mocha-config-compass^1.1.1",
+    "@mongodb-js/prettier-config-compass": "npm:@cloud-mongodb-js/prettier-config-compass^1.0.0",
+    "@mongodb-js/tsconfig-compass": "npm:@cloud-mongodb-js/tsconfig-compass^1.0.2",
     "@types/chai": "^4.2.21",
     "@types/mocha": "^9.0.0",
     "@types/reflux": "^6.4.3",

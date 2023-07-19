@@ -1,5 +1,5 @@
 {
-  "name": "@mongodb-js/compass-crud",
+  "name": "@cloud-mongodb-js/compass-crud",
   "productName": "Compass CRUD plugin",
   "version": "13.8.0",
   "description": "Compass Plugin for CRUD Operations",
@@ -62,21 +62,21 @@
     "reformat": "npm run prettier -- --write . && npm run eslint . --fix"
   },
   "peerDependencies": {
-    "@mongodb-js/compass-components": "^1.8.0",
-    "@mongodb-js/compass-editor": "^0.7.0",
-    "@mongodb-js/compass-logging": "^1.1.5",
+    "@mongodb-js/compass-components": "npm:@cloud-mongodb-js/compass-components^1.8.0",
+    "@mongodb-js/compass-editor": "npm:@cloud-mongodb-js/compass-editor^0.7.0",
+    "@mongodb-js/compass-logging": "npm:@cloud-mongodb-js/compass-logging^1.1.5",
     "bson": "^5.2.0",
-    "compass-preferences-model": "^2.8.0",
-    "hadron-document": "^8.2.0",
-    "hadron-type-checker": "^7.0.2",
+    "compass-preferences-model": "npm:@cloud-mongodb-js/compass-preferences-model^2.8.0",
+    "hadron-document": "npm:@cloud-mongodb-js/hadron-document^8.2.0",
+    "hadron-type-checker": "npm:@cloud-mongodb-js/hadron-type-checker^7.0.2",
     "react": "^17.0.2"
   },
   "devDependencies": {
-    "@mongodb-js/eslint-config-compass": "^1.0.5",
-    "@mongodb-js/mocha-config-compass": "^1.1.1",
-    "@mongodb-js/prettier-config-compass": "^1.0.0",
-    "@mongodb-js/tsconfig-compass": "^1.0.2",
-    "@mongodb-js/webpack-config-compass": "^1.0.8",
+    "@mongodb-js/eslint-config-compass": "npm:@cloud-mongodb-js/eslint-config-compass^1.0.5",
+    "@mongodb-js/mocha-config-compass": "npm:@cloud-mongodb-js/mocha-config-compass^1.1.1",
+    "@mongodb-js/prettier-config-compass": "npm:@cloud-mongodb-js/prettier-config-compass^1.0.0",
+    "@mongodb-js/tsconfig-compass": "npm:@cloud-mongodb-js/tsconfig-compass^1.0.2",
+    "@mongodb-js/webpack-config-compass": "npm:@cloud-mongodb-js/webpack-config-compass^1.0.8",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "@types/reflux": "^6.4.3",
@@ -89,8 +89,8 @@
     "electron": "^22.3.10",
     "enzyme": "^3.11.0",
     "eslint": "^7.25.0",
-    "hadron-app": "^5.6.0",
-    "hadron-app-registry": "^9.0.6",
+    "hadron-app": "npm:@cloud-mongodb-js/hadron-app^5.6.0",
+    "hadron-app-registry": "npm:@cloud-mongodb-js/hadron-app-registry^9.0.6",
     "lodash": "^4.17.21",
     "mocha": "^10.2.0",
     "mongodb-connection-model": "^22.3.0",
@@ -107,12 +107,12 @@
     "webpack": "^4.46.0"
   },
   "dependencies": {
-    "@mongodb-js/compass-components": "^1.8.0",
-    "@mongodb-js/compass-editor": "^0.7.0",
-    "@mongodb-js/compass-logging": "^1.1.5",
+    "@mongodb-js/compass-components": "npm:@cloud-mongodb-js/compass-components^1.8.0",
+    "@mongodb-js/compass-editor": "npm:@cloud-mongodb-js/compass-editor^0.7.0",
+    "@mongodb-js/compass-logging": "npm:@cloud-mongodb-js/compass-logging^1.1.5",
     "bson": "^5.2.0",
-    "compass-preferences-model": "^2.8.0",
-    "hadron-document": "^8.2.0",
-    "hadron-type-checker": "^7.0.2"
+    "compass-preferences-model": "npm:@cloud-mongodb-js/compass-preferences-model^2.8.0",
+    "hadron-document": "npm:@cloud-mongodb-js/hadron-document^8.2.0",
+    "hadron-type-checker": "npm:@cloud-mongodb-js/hadron-type-checker^7.0.2"
   }
 }

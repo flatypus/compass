@@ -1,5 +1,5 @@
 {
-  "name": "mongodb-compass-monorepo",
+  "name": "@cloud-mongodb-js/mongodb-compass-monorepo",
   "description": "Monorepo that includes Compass and all its dependencies",
   "homepage": "https://www.mongodb.com/products/compass",
   "author": {

@@ -1,5 +1,5 @@
 {
-  "name": "bson-transpilers",
+  "name": "@cloud-mongodb-js/bson-transpilers",
   "version": "2.0.4",
   "apiVersion": "0.0.1",
   "productName": "BSON Transpilers",
