@@ -56,26 +56,26 @@
     "reformat": "npm run prettier -- --write . && npm run eslint . --fix"
   },
   "peerDependencies": {
-    "@mongodb-js/compass-components": "npm:@cloud-mongodb-js/compass-components@^1.8.0",
-    "@mongodb-js/compass-editor": "npm:@cloud-mongodb-js/compass-editor^0.7.0",
-    "@mongodb-js/compass-logging": "npm:@cloud-mongodb-js/compass-logging^1.1.5",
-    "@mongodb-js/mongodb-constants": "npm:@cloud-mongodb-js/mongodb-constants^0.6.0",
-    "compass-preferences-model": "npm:@cloud-mongodb-js/compass-preferences-model^2.8.0",
+    "@cloud-mongodb-js/compass-components": "^1.8.0",
+    "@cloud-mongodb-js/compass-editor": "^0.7.0",
+    "@cloud-mongodb-js/compass-logging": "^1.1.5",
+    "@mongodb-js/mongodb-constants": "^0.6.0",
+    "@cloud-mongodb-js/compass-preferences-model": "^2.8.0",
     "react": "^17.0.2"
   },
   "devDependencies": {
-    "@mongodb-js/eslint-config-compass": "npm:@cloud-mongodb-js/eslint-config-compass^1.0.5",
-    "@mongodb-js/mocha-config-compass": "npm:@cloud-mongodb-js/mocha-config-compass^1.1.1",
-    "@mongodb-js/prettier-config-compass": "npm:@cloud-mongodb-js/prettier-config-compass^1.0.0",
-    "@mongodb-js/tsconfig-compass": "npm:@cloud-mongodb-js/tsconfig-compass^1.0.2",
-    "@mongodb-js/webpack-config-compass": "npm:@cloud-mongodb-js/webpack-config-compass^1.0.8",
+    "@cloud-mongodb-js/eslint-config-compass": "^1.0.5",
+    "@cloud-mongodb-js/mocha-config-compass": "^1.1.1",
+    "@cloud-mongodb-js/prettier-config-compass": "^1.0.0",
+    "@cloud-mongodb-js/tsconfig-compass": "^1.0.2",
+    "@cloud-mongodb-js/webpack-config-compass": "^1.0.8",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "chai": "^4.2.0",
     "depcheck": "^1.4.1",
     "electron": "^22.3.10",
     "eslint": "^7.25.0",
-    "hadron-app-registry": "npm:@cloud-mongodb-js/hadron-app-registry^9.0.6",
+    "@cloud-mongodb-js/hadron-app-registry": "^9.0.6",
     "lodash": "^4.17.21",
     "mocha": "^10.2.0",
     "mongodb-query-parser": "^2.5.0",
@@ -90,10 +90,10 @@
     "xvfb-maybe": "^0.2.1"
   },
   "dependencies": {
-    "@mongodb-js/compass-components": "npm:@cloud-mongodb-js/compass-components^1.8.0",
-    "@mongodb-js/compass-editor": "npm:@cloud-mongodb-js/compass-editor^0.7.0",
-    "@mongodb-js/compass-logging": "npm:@cloud-mongodb-js/compass-logging^1.1.5",
-    "@mongodb-js/mongodb-constants": "npm:@cloud-mongodb-js/mongodb-constants^0.6.0",
-    "compass-preferences-model": "npm:@cloud-mongodb-js/compass-preferences-model^2.8.0"
+    "@cloud-mongodb-js/compass-components": "^1.8.0",
+    "@cloud-mongodb-js/compass-editor": "^0.7.0",
+    "@cloud-mongodb-js/compass-logging": "^1.1.5",
+    "@mongodb-js/mongodb-constants": "^0.6.0",
+    "@cloud-mongodb-js/compass-preferences-model": "^2.8.0"
   }
 }

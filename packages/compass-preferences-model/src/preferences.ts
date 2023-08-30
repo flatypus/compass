@@ -3,7 +3,7 @@ import { promisifyAmpersandMethod } from '@mongodb-js/compass-utils';
 import type { AmpersandMethodOptions } from '@mongodb-js/compass-utils';
 import type { ParsedGlobalPreferencesResult } from './global-config';
 
-import { createLoggerAndTelemetry } from '@mongodb-js/compass-logging';
+import { createLoggerAndTelemetry } from '@cloud-mongodb-js/compass-logging';
 import { parseRecord } from './parse-record';
 const { log, mongoLogId } = createLoggerAndTelemetry('COMPASS-PREFERENCES');
 

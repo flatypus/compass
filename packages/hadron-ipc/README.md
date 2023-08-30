@@ -7,8 +7,8 @@ Simplified wrapper around Electron's IPC events.
 ```javascript
 process.env.DEBUG = 'hadron-*';
 
-const ipc = require('hadron-ipc');
-const AppRegistry = require('hadron-app-registry');
+const ipc = require('@cloud-mongodb-js/hadron-ipc');
+const AppRegistry = require('@cloud-mongodb-js/hadron-app-registry');
 
 const globalAppRegistry = new AppRegistry();
 
@@ -33,7 +33,7 @@ Communication from the main process to a renderer process.
 Respond to an event sent from a renderer process. `handler` keeps track of
 `BrowserWindow` instance and any of the `args`.
 ```js
-const ipc = require('hadron-ipc');
+const ipc = require('@cloud-mongodb-js/hadron-ipc');
 
 const onFindInPage = (sender, searchTerm, opt) => {
   if (!_window) return;
@@ -47,7 +47,7 @@ ipc.respondTo('app:find-in-page', onFindInPage);
 
 You can also use `broadcast` as part of the response:
 ```js
-const ipc = require('hadron-ipc');
+const ipc = require('@cloud-mongodb-js/hadron-ipc');
 
 ipc.respondTo('app:loading:change-status', (evt, meta) => {
   ipc.broadcast('app:loading:change-status', meta);
@@ -59,7 +59,7 @@ Broadcast an event to renderer process(es).
 
 For example, here is a broadcast from a Menu Item:
 ```js
-const ipc = require('hadron-ipc');
+const ipc = require('@cloud-mongodb-js/hadron-ipc');
 
 function viewSubMenu() {
   return {
@@ -86,7 +86,7 @@ ipc.broadcastFocused('app:disconnect');
 ### ipc.remove(channel, listener)
 Remove a listener from the main process' ipc.
 ```js
-const ipc = require('hadron-ipc');
+const ipc = require('@cloud-mongodb-js/hadron-ipc');
 
 const onFindInPage = (sender, searchTerm, opt) => {
   if (!_window) return;
@@ -108,7 +108,7 @@ Call the main process under the provided `methodName`. Under the hood `args`
 are serialised as JSON.
 
 ```js
-const ipc = require('hadron-ipc');
+const ipc = require('@cloud-mongodb-js/hadron-ipc');
 
 const args = {
   query: {
@@ -125,8 +125,8 @@ ipc.call('app:open-export', args, (res) = {
 From Electron's `ipcRenderer` API. Useful for when replying to Main process'
 `ipc.broadcast` events.
 ```js
-const ipc = require('hadron-ipc');
-const app = require('hadron-app')
+const ipc = require('@cloud-mongodb-js/hadron-ipc');
+const app = require('@cloud-mongodb-js/hadron-app')
 global.hadronApp = app;
 
 ipc.on('app:refresh-data', () => global.hadronApp.appRegistry.emit('refresh-data'));

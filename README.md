@@ -18,43 +18,19 @@ Is there anything else you’d like to see in Compass? Let us know by submitting
 
 ### Compass Plugins
 
-- [**@mongodb-js/compass-aggregations**](packages/compass-aggregations): Compass Aggregation Pipeline Builder
-- [**@mongodb-js/compass-app-stores**](packages/compass-app-stores): The external stores repo for compass
-- [**@mongodb-js/compass-collection**](packages/compass-collection): Compass Collection
-- [**@mongodb-js/compass-crud**](packages/compass-crud): Compass Plugin for CRUD Operations
-- [**@mongodb-js/compass-database**](packages/compass-database): Compass Database Plugin
-- [**@mongodb-js/compass-databases-collections**](packages/databases-collections): View the list of, create, and drop databases and collections
-- [**@mongodb-js/compass-explain-plan**](packages/compass-explain-plan): Evaluate the performance of your query
-- [**@mongodb-js/compass-export-to-language**](packages/compass-export-to-language): Export MongoDB queries and aggregations to various languages
-- [**@mongodb-js/compass-field-store**](packages/compass-field-store): FieldStore keeps track of available fields in a collection
-- [**@mongodb-js/compass-find-in-page**](packages/compass-find-in-page): cmd-f UI for Compass
-- [**@mongodb-js/compass-home**](packages/compass-home): Home
-- [**@mongodb-js/compass-import-export**](packages/compass-import-export): Import/Export feature for Compass
-- [**@mongodb-js/compass-indexes**](packages/compass-indexes): Collection index management for Compass
-- [**@mongodb-js/compass-instance**](packages/compass-instance): Compass instance plugin
-- [**@mongodb-js/compass-query-bar**](packages/compass-query-bar): Renders a component for executing MongoDB queries through a GUI
-- [**@mongodb-js/compass-query-history**](packages/compass-query-history): Load and manage saved queries in Compass
-- [**@mongodb-js/compass-saved-aggregations-queries**](packages/compass-saved-aggregations-queries): Instance tab plugin that shows saved queries and aggregations
-- [**@mongodb-js/compass-schema**](packages/compass-schema): Compass Schema Tab Plugin
-- [**@mongodb-js/compass-schema-validation**](packages/compass-schema-validation): Compass plugin for document JSON schema validation
-- [**@mongodb-js/compass-serverstats**](packages/compass-serverstats): Compass Real Time
-- [**@mongodb-js/compass-shell**](packages/compass-shell): Compass Shell Plugin
-- [**@mongodb-js/compass-sidebar**](packages/compass-sidebar): The sidebar of Compass
+- [**@cloud-mongodb-js/compass-aggregations**](packages/compass-aggregations): Compass Aggregation Pipeline Builder
+- [**@cloud-mongodb-js/compass-crud**](packages/compass-crud): Compass Plugin for CRUD Operations
+- [**@cloud-mongodb-js/compass-export-to-language**](packages/compass-export-to-language): Export MongoDB queries and aggregations to various languages
+- [**@cloud-mongodb-js/compass-query-bar**](packages/compass-query-bar): Renders a component for executing MongoDB queries through a GUI
 
 ### Shared Libraries and Build Tools
 
-- [**@mongodb-js/compass-components**](packages/compass-components): React Components used in Compass
-- [**@mongodb-js/compass-connection-import-export**](packages/compass-connection-import-export): UI for Compass connection import/export
-- [**@mongodb-js/compass-connections**](packages/compass-connections): Manage your MongoDB connections and connect in Compass
-- [**@mongodb-js/compass-databases-navigation**](packages/compass-databases-navigation): Databases and collections sidebar navigation tree
-- [**@mongodb-js/compass-editor**](packages/compass-editor): Reusable Compass editor component based on ace-editor with MongoDB-specific ace modes, themes, and autocompleters
-- [**@mongodb-js/compass-logging**](packages/compass-logging): Shared helpers for logging in Compass packages
-- [**@mongodb-js/compass-maybe-protect-connection-string**](packages/compass-maybe-protect-connection-string): Utility for protecting connection strings if requested
-- [**@mongodb-js/compass-settings**](packages/compass-settings): Settings for compass
-- [**@mongodb-js/compass-utils**](packages/compass-utils): Utilities for MongoDB Compass Development
-- [**@mongodb-js/compass-welcome**](packages/compass-welcome): The welcome modal
-- [**@mongodb-js/connection-form**](packages/connection-form): A form for specifying information needed to connect to a MongoDB instance
-- [**@mongodb-js/databases-collections-list**](packages/databases-collections-list): List view for the databases and collections
+- [**@cloud-mongodb-js/compass-components**](packages/compass-components): React Components used in Compass
+- [**@cloud-mongodb-js/compass-editor**](packages/compass-editor): Reusable Compass editor component based on ace-editor with MongoDB-specific ace modes, themes, and autocompleters
+- [**@cloud-mongodb-js/compass-logging**](packages/compass-logging): Shared helpers for logging in Compass packages
+- [**@cloud-mongodb-js/compass-maybe-protect-connection-string**](packages/compass-maybe-protect-connection-string): Utility for protecting connection strings if requested
+- [**@cloud-mongodb-js/compass-settings**](packages/compass-settings): Settings for compass
+- [**@cloud-mongodb-js/compass-utils**](packages/compass-utils): Utilities for MongoDB Compass Development
 - [**@mongodb-js/explain-plan-helper**](packages/explain-plan-helper): Explain plan utility methods for MongoDB Compass
 - [**@mongodb-js/hadron-plugin-manager**](packages/hadron-plugin-manager): Hadron Plugin Manager
 - [**@mongodb-js/mongodb-notary-service-client**](packages/notary-service-client): A client for our notary-service: an API for codesigning
@@ -83,12 +59,11 @@ Is there anything else you’d like to see in Compass? Let us know by submitting
 
 ### Shared Configuration Files
 
-- [**@mongodb-js/eslint-config-compass**](configs/eslint-config-compass): Shared Compass eslint configuration
-- [**@mongodb-js/eslint-plugin-compass**](configs/eslint-plugin-compass): Custom eslint rules for Compass monorepo
-- [**@mongodb-js/mocha-config-compass**](configs/mocha-config-compass): Shared mocha mocha configuration for Compass packages
-- [**@mongodb-js/prettier-config-compass**](configs/prettier-config-compass): Shared Compass prettier configuration
-- [**@mongodb-js/tsconfig-compass**](configs/tsconfig-compass): Shared Compass Typescript configuration
-- [**@mongodb-js/webpack-config-compass**](configs/webpack-config-compass): Shared webpack configuration for Compass application and plugins
+- [**@cloud-mongodb-js/eslint-config-compass**](configs/eslint-config-compass): Shared Compass eslint configuration
+- [**@cloud-mongodb-js/eslint-plugin-compass**](configs/eslint-plugin-compass): Custom eslint rules for Compass monorepo
+- [**@cloud-mongodb-js/mocha-config-compass**](configs/mocha-config-compass): Shared mocha mocha configuration for Compass packages
+- [**@cloud-mongodb-js/prettier-config-compass**](configs/prettier-config-compass): Shared Compass prettier configuration
+- [**@cloud-mongodb-js/webpack-config-compass**](configs/webpack-config-compass): Shared webpack configuration for Compass application and plugins
 
 ## License
 

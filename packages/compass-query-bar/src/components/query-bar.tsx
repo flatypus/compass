@@ -10,7 +10,7 @@ import {
   useDarkMode,
   Label,
   Link,
-} from '@mongodb-js/compass-components';
+} from '@cloud-mongodb-js/compass-components';
 import { connect } from 'react-redux';
 import type { QueryOption } from '../constants/query-option-definition';
 import QueryOptionComponent, {

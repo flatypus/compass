@@ -11,7 +11,7 @@ import {
   spacing,
   cx,
   useDarkMode,
-} from '@mongodb-js/compass-components';
+} from '@cloud-mongodb-js/compass-components';
 
 import { DEFAULT_SAMPLE_SIZE, DEFAULT_LARGE_LIMIT } from '../../constants';
 

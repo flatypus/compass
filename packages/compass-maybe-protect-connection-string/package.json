@@ -1,6 +1,6 @@
 {
   "name": "@cloud-mongodb-js/compass-maybe-protect-connection-string",
-  "productName": "@mongodb-js/compass-maybe-protect-connection-string Plugin",
+  "productName": "@cloud-mongodb-js/compass-maybe-protect-connection-string Plugin",
   "description": "Utility for protecting connection strings if requested",
   "author": {
     "name": "MongoDB Inc",
@@ -51,14 +51,14 @@
     "reformat": "npm run prettier -- --write . && npm run eslint . --fix"
   },
   "dependencies": {
-    "compass-preferences-model": "npm:@cloud-mongodb-js/compass-preferences-model^2.8.0",
+    "@cloud-mongodb-js/compass-preferences-model": "^2.8.0",
     "mongodb-connection-string-url": "^2.6.0"
   },
   "devDependencies": {
-    "@mongodb-js/eslint-config-compass": "npm:@cloud-mongodb-js/eslint-config-compass^1.0.5",
-    "@mongodb-js/mocha-config-compass": "npm:@cloud-mongodb-js/mocha-config-compass^1.1.1",
-    "@mongodb-js/prettier-config-compass": "npm:@cloud-mongodb-js/prettier-config-compass^1.0.0",
-    "@mongodb-js/tsconfig-compass": "npm:@cloud-mongodb-js/tsconfig-compass^1.0.2",
+    "@cloud-mongodb-js/eslint-config-compass": "^1.0.5",
+    "@cloud-mongodb-js/mocha-config-compass": "^1.1.1",
+    "@cloud-mongodb-js/prettier-config-compass": "^1.0.0",
+    "@cloud-mongodb-js/tsconfig-compass": "^1.0.2",
     "@types/chai": "^4.2.21",
     "@types/mocha": "^9.0.0",
     "@types/sinon-chai": "^3.2.5",

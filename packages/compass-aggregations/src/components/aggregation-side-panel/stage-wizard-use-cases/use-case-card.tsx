@@ -5,7 +5,7 @@ import {
   Link,
   css,
   spacing,
-} from '@mongodb-js/compass-components';
+} from '@cloud-mongodb-js/compass-components';
 
 import { getStageHelpLink } from '../../../utils/stage';
 import type { StageWizardUseCase } from '.';

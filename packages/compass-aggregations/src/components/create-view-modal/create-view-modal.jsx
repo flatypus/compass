@@ -10,7 +10,7 @@ import {
   css,
   spacing,
   TextInput,
-} from '@mongodb-js/compass-components';
+} from '@cloud-mongodb-js/compass-components';
 
 import { createView } from '../../modules/create-view';
 import { changeViewName } from '../../modules/create-view/name';

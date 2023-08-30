@@ -10,8 +10,11 @@ import type {
   default as HadronDocumentType,
   Element as HadronElementType,
   Editor as EditorType,
-} from 'hadron-document';
-import { ElementEvents, ElementEditor } from 'hadron-document';
+} from '@cloud-mongodb-js/hadron-document';
+import {
+  ElementEvents,
+  ElementEditor,
+} from '@cloud-mongodb-js/hadron-document';
 import BSONValue from '../bson-value';
 import { spacing } from '@leafygreen-ui/tokens';
 import { KeyEditor, ValueEditor, TypeEditor } from './element-editors';

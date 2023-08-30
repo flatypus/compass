@@ -1,5 +1,5 @@
 import { Preferences } from './preferences';
-import hadronIpc from 'hadron-ipc';
+import hadronIpc from '@cloud-mongodb-js/hadron-ipc';
 import type {
   AllPreferences,
   PreferenceStateInformation,
@@ -9,7 +9,7 @@ import type {
 } from './preferences';
 import type { ParsedGlobalPreferencesResult } from './global-config';
 
-import { getStoragePaths } from '@mongodb-js/compass-utils';
+import { getStoragePaths } from '@cloud-mongodb-js/compass-utils';
 import type { PreferencesAccess } from '.';
 const { basepath } = getStoragePaths() || {};
 

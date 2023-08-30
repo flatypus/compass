@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import type { Document } from 'hadron-document';
-import HadronDocument from 'hadron-document';
-import { DocumentList } from '@mongodb-js/compass-components';
+import type { Document } from '@cloud-mongodb-js/hadron-document';
+import HadronDocument from '@cloud-mongodb-js/hadron-document';
+import { DocumentList } from '@cloud-mongodb-js/compass-components';
 import type { CrudActions } from '../stores/crud-store';
 
 /**

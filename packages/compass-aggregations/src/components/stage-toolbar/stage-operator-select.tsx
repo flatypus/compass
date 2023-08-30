@@ -7,7 +7,7 @@ import {
   ComboboxOption,
   css,
   spacing,
-} from '@mongodb-js/compass-components';
+} from '@cloud-mongodb-js/compass-components';
 
 import type { RootState } from '../../modules';
 import { changeStageOperator } from '../../modules/pipeline-builder/stage-editor';

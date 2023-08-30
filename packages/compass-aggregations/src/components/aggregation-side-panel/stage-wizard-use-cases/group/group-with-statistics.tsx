@@ -5,11 +5,11 @@ import {
   Option,
   spacing,
   ListEditor,
-} from '@mongodb-js/compass-components';
+} from '@cloud-mongodb-js/compass-components';
 import React, { useMemo, useState } from 'react';
 import { connect } from 'react-redux';
 import { sortBy } from 'lodash';
-import { ACCUMULATORS as MDB_ACCUMULATORS } from '@mongodb-js/mongodb-constants';
+import { ACCUMULATORS as MDB_ACCUMULATORS } from '@cloud-mongodb-js/mongodb-constants';
 import type { Document } from 'mongodb';
 import semver from 'semver';
 import {

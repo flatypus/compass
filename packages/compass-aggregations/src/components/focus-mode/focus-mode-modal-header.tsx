@@ -12,7 +12,7 @@ import {
   Tooltip,
   useHotkeys,
   formatHotkey,
-} from '@mongodb-js/compass-components';
+} from '@cloud-mongodb-js/compass-components';
 import React, { useState } from 'react';
 import { connect } from 'react-redux';
 import type { RootState } from '../../modules';

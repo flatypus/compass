@@ -3,7 +3,7 @@ import { MongoLogWriter, mongoLogId } from 'mongodb-log-writer';
 import isElectronRenderer from 'is-electron-renderer';
 import createDebug from 'debug';
 import type { Writable } from 'stream';
-import type { HadronIpcRenderer } from 'hadron-ipc';
+import type { HadronIpcRenderer } from '@cloud-mongodb-js/hadron-ipc';
 
 let preferences: {
   getPreferences(): { trackUsageStatistics: boolean };
@@ -37,7 +37,7 @@ export function createLoggerAndTelemetry(
 ): LoggerAndTelemetry {
   // This application may not be running in an Node.js/Electron context.
   const ipc: HadronIpcRenderer | null = isElectronRenderer
-    ? require('hadron-ipc')
+    ? require('@cloud-mongodb-js/hadron-ipc')
     : null;
 
   // Do not create an actual Writable stream here, since the callback

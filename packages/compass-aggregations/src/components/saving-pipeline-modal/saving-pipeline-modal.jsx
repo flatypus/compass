@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import { FormModal, TextInput } from '@mongodb-js/compass-components';
+import { FormModal, TextInput } from '@cloud-mongodb-js/compass-components';
 
 /**
  * Saving pipeline modal.

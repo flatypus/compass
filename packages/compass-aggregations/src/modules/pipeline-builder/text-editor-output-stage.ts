@@ -1,6 +1,6 @@
 import type { Reducer } from 'redux';
 import type { AggregateOptions, MongoServerError } from 'mongodb';
-import { globalAppRegistryEmit } from '@mongodb-js/mongodb-redux-common/app-registry';
+import { globalAppRegistryEmit } from '@cloud-mongodb-js/mongodb-redux-common/app-registry';
 import type { PipelineBuilderThunkAction } from '..';
 import { DEFAULT_MAX_TIME_MS } from '../../constants';
 import { isAction } from '../../utils/is-action';

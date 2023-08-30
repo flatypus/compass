@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { KeylineCard, cx } from '@mongodb-js/compass-components';
+import { KeylineCard, cx } from '@cloud-mongodb-js/compass-components';
 
 import type { DocumentProps } from './document';
 import Document from './document';
-import type HadronDocument from 'hadron-document';
+import type HadronDocument from '@cloud-mongodb-js/hadron-document';
 import type { BSONObject } from '../stores/crud-store';
 
 /**

@@ -5,8 +5,8 @@ import {
   css,
   focusRing,
   spacing,
-} from '@mongodb-js/compass-components';
-import { createLoggerAndTelemetry } from '@mongodb-js/compass-logging';
+} from '@cloud-mongodb-js/compass-components';
+import { createLoggerAndTelemetry } from '@cloud-mongodb-js/compass-logging';
 import { renderQueryHistoryComponent } from '../stores/query-bar-reducer';
 import { connect } from 'react-redux';
 

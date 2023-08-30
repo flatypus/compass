@@ -18,7 +18,7 @@ function SecureIpcBackend(options) {
 inherits(SecureIpcBackend, BaseBackend);
 
 if (typeof window !== 'undefined') {
-  const ipc = require('hadron-ipc');
+  const ipc = require('@cloud-mongodb-js/hadron-ipc');
 
   /**
    * Clear the entire namespace. Use with caution!

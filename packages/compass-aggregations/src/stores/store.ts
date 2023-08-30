@@ -16,7 +16,7 @@ import {
 } from '../modules/pipeline-builder/stage-editor';
 import { updatePipelinePreview } from '../modules/pipeline-builder/builder-helpers';
 import type { DataService } from 'mongodb-data-service';
-import type AppRegistry from 'hadron-app-registry';
+import type AppRegistry from '@cloud-mongodb-js/hadron-app-registry';
 import type { ENVS } from '@mongodb-js/mongodb-constants';
 import {
   setCollectionFields,

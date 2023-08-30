@@ -8,7 +8,7 @@ import { kebabCase } from 'lodash';
 import type { AmpersandType, AllPreferences } from './preferences';
 import { allPreferencesProps } from './preferences';
 
-import { createLoggerAndTelemetry } from '@mongodb-js/compass-logging';
+import { createLoggerAndTelemetry } from '@cloud-mongodb-js/compass-logging';
 const { log, mongoLogId } = createLoggerAndTelemetry('COMPASS-PREFERENCES');
 
 function getGlobalConfigPaths(): string[] {

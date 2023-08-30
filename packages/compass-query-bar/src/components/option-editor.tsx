@@ -5,15 +5,15 @@ import {
   useFocusRing,
   palette,
   spacing,
-} from '@mongodb-js/compass-components';
+} from '@cloud-mongodb-js/compass-components';
 import type {
   Command,
   CompletionWithServerInfo,
-} from '@mongodb-js/compass-editor';
+} from '@cloud-mongodb-js/compass-editor';
 import {
   CodemirrorInlineEditor as InlineEditor,
   createQueryAutocompleter,
-} from '@mongodb-js/compass-editor';
+} from '@cloud-mongodb-js/compass-editor';
 import { connect } from 'react-redux';
 import type { QueryBarState } from '../stores/query-bar-reducer';
 

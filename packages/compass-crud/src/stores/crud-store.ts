@@ -4,10 +4,10 @@ import toNS from 'mongodb-ns';
 import { findIndex, isEmpty, isEqual } from 'lodash';
 // @ts-expect-error no types available
 import StateMixin from 'reflux-state-mixin';
-import type { Element } from 'hadron-document';
-import { Document } from 'hadron-document';
-import HadronDocument from 'hadron-document';
-import createLoggerAndTelemetry from '@mongodb-js/compass-logging';
+import type { Element } from '@cloud-mongodb-js/hadron-document';
+import { Document } from '@cloud-mongodb-js/hadron-document';
+import HadronDocument from '@cloud-mongodb-js/hadron-document';
+import createLoggerAndTelemetry from '@cloud-mongodb-js/compass-logging';
 import { capMaxTimeMSAtPreferenceLimit } from 'compass-preferences-model';
 
 import {
@@ -34,8 +34,8 @@ import type {
   TableHeaderType,
 } from './grid-store';
 import configureGridStore from './grid-store';
-import type { TypeCastMap } from 'hadron-type-checker';
-import type AppRegistry from 'hadron-app-registry';
+import type { TypeCastMap } from '@cloud-mongodb-js/hadron-type-checker';
+import type AppRegistry from '@cloud-mongodb-js/hadron-app-registry';
 import { BaseRefluxStore } from './base-reflux-store';
 export type BSONObject = TypeCastMap['Object'];
 export type BSONArray = TypeCastMap['Array'];

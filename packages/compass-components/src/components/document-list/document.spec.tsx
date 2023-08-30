@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { expect } from 'chai';
 import { render, cleanup, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import HadronDocument from 'hadron-document';
+import HadronDocument from '@cloud-mongodb-js/hadron-document';
 import Document from './document';
 
 const EditableDoc = ({ doc }) => {

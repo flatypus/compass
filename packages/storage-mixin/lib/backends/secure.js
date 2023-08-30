@@ -1,7 +1,7 @@
 const inherits = require('util').inherits;
 const BaseBackend = require('./base');
 const _ = require('lodash');
-const { createLoggerAndTelemetry } = require('@mongodb-js/compass-logging');
+const { createLoggerAndTelemetry } = require('@cloud-mongodb-js/compass-logging');
 const { debug, mongoLogId, log } = createLoggerAndTelemetry('COMPASS-STORAGE-MIXIN');
 
 function SecureBackend(options) {

@@ -1,7 +1,7 @@
 import type { DataService } from 'mongodb-data-service';
 import type { AggregateOptions, Document } from 'mongodb';
 import { aggregatePipeline } from '../../utils/cancellable-aggregation';
-import { cancellableWait } from '@mongodb-js/compass-utils';
+import { cancellableWait } from '@cloud-mongodb-js/compass-utils';
 import {
   getStageOperator,
   getLastStageOperator,
@@ -10,7 +10,7 @@ import {
 import {
   FULL_SCAN_STAGES,
   REQUIRED_AS_FIRST_STAGE as _REQUIRED_AS_FIRST_STAGE,
-} from '@mongodb-js/mongodb-constants';
+} from '@cloud-mongodb-js/mongodb-constants';
 import isEqual from 'lodash/isEqual';
 
 export const DEFAULT_SAMPLE_SIZE = 100000;

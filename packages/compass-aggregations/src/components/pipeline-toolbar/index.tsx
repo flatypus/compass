@@ -5,7 +5,7 @@ import {
   spacing,
   palette,
   useDarkMode,
-} from '@mongodb-js/compass-components';
+} from '@cloud-mongodb-js/compass-components';
 import { connect } from 'react-redux';
 
 import PipelineHeader from './pipeline-header';

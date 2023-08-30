@@ -34,7 +34,7 @@ a few examples of working with `compass-crud`'s `Action` and `Roles`.
 Render an editable document in a React component.
 
 ```jsx
-const app = require('hadron-app');
+const app = require('@cloud-mongodb-js/hadron-app');
 const React = require('react');
 
 class MyComponent extends React.Component {
@@ -51,7 +51,7 @@ class MyComponent extends React.Component {
 Render a non-editable pre-expanded document in a React component.
 
 ```jsx
-const app = require('hadron-app');
+const app = require('@cloud-mongodb-js/hadron-app');
 const React = require('react');
 
 class MyComponent extends React.Component {
@@ -68,7 +68,7 @@ class MyComponent extends React.Component {
 Listen to the various CRUD actions.
 
 ```javascript
-const app = require('hadron-app');
+const app = require('@cloud-mongodb-js/hadron-app');
 const CrudActions = app.appRegistry.getAction('CRUD.Actions');
 
 CrudActions.documentRemoved.listen((id) => {

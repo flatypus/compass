@@ -5,7 +5,7 @@ import {
   palette,
   Body,
   useDarkMode,
-} from '@mongodb-js/compass-components';
+} from '@cloud-mongodb-js/compass-components';
 import { connect } from 'react-redux';
 import { SavePipelineCard } from './saved-pipeline-card';
 import {

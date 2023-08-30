@@ -1,9 +1,9 @@
 import React from 'react';
-import { css, cx, KeylineCard } from '@mongodb-js/compass-components';
+import { css, cx, KeylineCard } from '@cloud-mongodb-js/compass-components';
 
 import type { JSONEditorProps } from './json-editor';
 import JSONEditor from './json-editor';
-import type Document from 'hadron-document';
+import type Document from '@cloud-mongodb-js/hadron-document';
 
 /**
  * The full document list container class.

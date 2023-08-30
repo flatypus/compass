@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { DocumentList } from '@mongodb-js/compass-components';
-import type Document from 'hadron-document';
-import type { TypeCastMap } from 'hadron-type-checker';
+import { DocumentList } from '@cloud-mongodb-js/compass-components';
+import type Document from '@cloud-mongodb-js/hadron-document';
+import type { TypeCastMap } from '@cloud-mongodb-js/hadron-type-checker';
 type BSONObject = TypeCastMap['Object'];
 
 /**

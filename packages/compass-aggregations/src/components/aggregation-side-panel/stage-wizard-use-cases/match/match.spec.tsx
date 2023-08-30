@@ -15,7 +15,7 @@ import MatchForm, {
 import fixtures, { SAMPLE_FIELDS } from './fixtures';
 import { setComboboxValue } from '../../../../../test/form-helper';
 import type { CreateConditionFn } from './match-condition-form';
-import type { TypeCastTypes } from 'hadron-type-checker';
+import type { TypeCastTypes } from '@cloud-mongodb-js/hadron-type-checker';
 import { SINGLE_SELECT_LABEL } from '../field-combobox';
 
 describe('match', function () {

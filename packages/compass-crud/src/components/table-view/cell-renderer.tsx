@@ -8,8 +8,8 @@ import {
   LeafyGreenProvider,
   spacing,
   withDarkMode,
-} from '@mongodb-js/compass-components';
-import { Element } from 'hadron-document';
+} from '@cloud-mongodb-js/compass-components';
+import { Element } from '@cloud-mongodb-js/hadron-document';
 import type { ICellRendererReactComp } from 'ag-grid-react';
 import type { ICellRendererParams } from 'ag-grid-community';
 import type { GridActions, TableHeaderType } from '../../stores/grid-store';

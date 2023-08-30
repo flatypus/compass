@@ -9,7 +9,7 @@ import {
   SpinLoader,
   ButtonVariant,
   ButtonSize,
-} from '@mongodb-js/compass-components';
+} from '@cloud-mongodb-js/compass-components';
 import { connect } from 'react-redux';
 import type { RootState } from '../../../modules';
 import {

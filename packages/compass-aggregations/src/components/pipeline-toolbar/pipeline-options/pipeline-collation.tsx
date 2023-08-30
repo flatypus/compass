@@ -8,7 +8,7 @@ import {
   spacing,
   TextInput,
   palette,
-} from '@mongodb-js/compass-components';
+} from '@cloud-mongodb-js/compass-components';
 
 import type { RootState } from '../../../modules';
 import { collationStringChanged } from '../../../modules/collation-string';

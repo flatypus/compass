@@ -101,7 +101,7 @@ tasks:
       - func: install
       - func: bootstrap
         vars:
-          scope: '@mongodb-js/webpack-config-compass'
+          scope: '@cloud-mongodb-js/webpack-config-compass'
       - func: apply-compass-target-expansion
         vars:
           compass_distribution: compass
@@ -120,7 +120,7 @@ tasks:
       - func: install
       - func: bootstrap
         vars:
-          scope: '@mongodb-js/webpack-config-compass'
+          scope: '@cloud-mongodb-js/webpack-config-compass'
       - func: apply-compass-target-expansion
         vars:
           compass_distribution: compass-readonly
@@ -139,7 +139,7 @@ tasks:
       - func: install
       - func: bootstrap
         vars:
-          scope: '@mongodb-js/webpack-config-compass'
+          scope: '@cloud-mongodb-js/webpack-config-compass'
       - func: apply-compass-target-expansion
         vars:
           compass_distribution: compass-isolated

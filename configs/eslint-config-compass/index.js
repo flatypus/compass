@@ -75,7 +75,7 @@ module.exports = {
     'mocha',
     'react',
     'react-hooks',
-    '@mongodb-js/compass',
+    '@cloud-mongodb-js/compass',
     'filename-rules',
   ],
   rules: {

@@ -1,6 +1,6 @@
 import { promises as fs } from 'fs';
 import path from 'path';
-import { createLoggerAndTelemetry } from '@mongodb-js/compass-logging';
+import { createLoggerAndTelemetry } from '@cloud-mongodb-js/compass-logging';
 import { getDirectory } from './get-directory';
 import { prettify } from '../modules/pipeline-builder/pipeline-parser/utils';
 

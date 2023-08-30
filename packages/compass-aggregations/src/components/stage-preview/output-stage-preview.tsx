@@ -7,7 +7,7 @@ import {
   Link,
   Button,
   SpinLoader,
-} from '@mongodb-js/compass-components';
+} from '@cloud-mongodb-js/compass-components';
 import type { PipelineBuilderThunkDispatch, RootState } from '../../modules';
 import { viewOutResults } from '../../modules/out-results-fn';
 import { runStage } from '../../modules/pipeline-builder/stage-editor';

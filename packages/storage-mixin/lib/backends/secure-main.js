@@ -1,8 +1,8 @@
-const { createLoggerAndTelemetry } = require('@mongodb-js/compass-logging');
+const { createLoggerAndTelemetry } = require('@cloud-mongodb-js/compass-logging');
 const { debug, mongoLogId, log } = createLoggerAndTelemetry('COMPASS-STORAGE-MIXIN');
 
 if (process && process.type === 'browser') {
-  const ipc = require('hadron-ipc');
+  const ipc = require('@cloud-mongodb-js/hadron-ipc');
 
   /**
    * Clear the entire namespace. Use with caution!

@@ -10,7 +10,7 @@ import {
   WorkspaceContainer,
   spacing,
   withDarkMode,
-} from '@mongodb-js/compass-components';
+} from '@cloud-mongodb-js/compass-components';
 import type { InsertDocumentDialogProps } from './insert-document-dialog';
 import InsertDocumentDialog from './insert-document-dialog';
 import type { DocumentListViewProps } from './document-list-view';
@@ -32,7 +32,7 @@ import {
 
 import './index.less';
 import type { CrudStore, BSONObject } from '../stores/crud-store';
-import type Document from 'hadron-document';
+import type Document from '@cloud-mongodb-js/hadron-document';
 
 const listAndJsonStyles = css({
   padding: spacing[3],

@@ -3,7 +3,7 @@
 ## Usage
 
 ```js
-const app = require('hadron-app');
+const app = require('@cloud-mongodb-js/hadron-app');
 app.myObject = "testing";
 ```
 

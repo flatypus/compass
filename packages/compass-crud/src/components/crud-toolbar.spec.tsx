@@ -1,7 +1,7 @@
 import React from 'react';
 import { expect } from 'chai';
 import sinon from 'sinon';
-import AppRegistry from 'hadron-app-registry';
+import AppRegistry from '@cloud-mongodb-js/hadron-app-registry';
 import {
   fireEvent,
   render,

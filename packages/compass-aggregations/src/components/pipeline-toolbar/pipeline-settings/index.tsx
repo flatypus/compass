@@ -1,6 +1,11 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { Button, Icon, css, spacing } from '@mongodb-js/compass-components';
+import {
+  Button,
+  Icon,
+  css,
+  spacing,
+} from '@cloud-mongodb-js/compass-components';
 import { exportToLanguage } from '../../../modules/export-to-language';
 import { SaveMenu } from './pipeline-menus';
 import PipelineName from './pipeline-name';

@@ -1,7 +1,7 @@
 import React from 'react';
 import { cleanup, render, screen } from '@testing-library/react';
 import { expect } from 'chai';
-import AppRegistry from 'hadron-app-registry';
+import AppRegistry from '@cloud-mongodb-js/hadron-app-registry';
 import QueryBarPlugin from './plugin';
 import configureStore from './stores';
 import Sinon from 'sinon';

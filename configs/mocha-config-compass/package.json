@@ -5,7 +5,7 @@
   "license": "SSPL",
   "main": "index.js",
   "devDependencies": {
-    "@mongodb-js/prettier-config-compass": "npm:@cloud-mongodb-js/prettier-config-compass^1.0.0",
+    "@cloud-mongodb-js/prettier-config-compass": "^1.0.0",
     "prettier": "^2.7.1"
   },
   "scripts": {

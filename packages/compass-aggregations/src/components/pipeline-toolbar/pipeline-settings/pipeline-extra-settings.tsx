@@ -10,7 +10,7 @@ import {
   SegmentedControl,
   SegmentedControlOption,
   GuideCue,
-} from '@mongodb-js/compass-components';
+} from '@cloud-mongodb-js/compass-components';
 import { toggleSettingsIsExpanded } from '../../../modules/settings';
 import { toggleAutoPreview } from '../../../modules/auto-preview';
 import type { RootState } from '../../../modules';
@@ -20,7 +20,7 @@ import { getIsPipelineInvalidFromBuilderState } from '../../../modules/pipeline-
 import { toggleSidePanel } from '../../../modules/side-panel';
 import { usePreference } from 'compass-preferences-model';
 
-import { createLoggerAndTelemetry } from '@mongodb-js/compass-logging';
+import { createLoggerAndTelemetry } from '@cloud-mongodb-js/compass-logging';
 import { GuideCueStorageKeys, useGuideCue } from '../../use-guide-cue';
 
 const { track } = createLoggerAndTelemetry('COMPASS-AGGREGATIONS-UI');

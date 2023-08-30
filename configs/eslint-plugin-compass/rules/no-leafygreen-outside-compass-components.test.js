@@ -27,14 +27,14 @@ ruleTester.run('no-leafygreen-outside-compass-components', rule, {
       code: "const Foo = require('@leafygreen-ui/foo-component');",
       parserOptions: { ecmaVersion: 2021 },
       errors: [
-        'Using @leafygreen-ui directly outside @mongodb-js/compass-component package is not allowed',
+        'Using @leafygreen-ui directly outside @cloud-mongodb-js/compass-component package is not allowed',
       ],
     },
     {
       code: "import Foo from '@leafygreen-ui/foo-component';",
       parserOptions: { ecmaVersion: 2021, sourceType: 'module' },
       errors: [
-        'Using @leafygreen-ui directly outside @mongodb-js/compass-component package is not allowed',
+        'Using @leafygreen-ui directly outside @cloud-mongodb-js/compass-component package is not allowed',
       ],
     },
   ],

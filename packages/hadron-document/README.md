@@ -8,7 +8,7 @@ and revert changes to elements directly.
 ## Installation
 
 ```
-npm install --save hadron-document
+npm install --save @cloud-mongodb-js/hadron-document
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ npm install --save hadron-document
 ```javascript
 'use strict';
 
-const { Document } = require('hadron-document');
+const { Document } = require('@cloud-mongodb-js/hadron-document');
 
 var object = {
   _id: 'aphex-twin',

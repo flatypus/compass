@@ -12,7 +12,7 @@ const { updatePackageJson } = require('./monorepo/update-package-json');
 const { withProgress } = require('./monorepo/with-progress');
 
 function packageNameToDir(pkgName) {
-  return pkgName ? pkgName.replace(/^@mongodb-js\//, '') : pkgName;
+  return pkgName ? pkgName.replace(/^@cloud-mongodb-js\//, '') : pkgName;
 }
 
 function dirToScopedPackageName(dir, scope) {
@@ -295,10 +295,10 @@ async function createWorkspace({
     ...(isReact && { peerDependencies: { react: '*', 'react-dom': '*' } }),
     ...(isReact && { dependencies: { react: '*', 'react-dom': '*' } }),
     devDependencies: {
-      '@mongodb-js/eslint-config-compass': '*',
-      '@mongodb-js/mocha-config-compass': '*',
-      '@mongodb-js/prettier-config-compass': '*',
-      '@mongodb-js/tsconfig-compass': '*',
+      '@cloud-mongodb-js/eslint-config-compass': '*',
+      '@cloud-mongodb-js/mocha-config-compass': '*',
+      '@cloud-mongodb-js/prettier-config-compass': '*',
+      '@cloud-mongodb-js/tsconfig-compass': '*',
       '@types/chai': '*',
       '@types/mocha': '*',
       '@types/sinon-chai': '*',
@@ -321,8 +321,8 @@ async function createWorkspace({
         'gen-esm-wrapper': '*',
       }),
       ...(isPlugin && {
-        '@mongodb-js/webpack-config-compass': '*',
-        'hadron-app-registry': '*',
+        '@cloud-mongodb-js/webpack-config-compass': '*',
+        '@cloud-mongodb-js/hadron-app-registry': '*',
         'xvfb-maybe': '*',
       }),
     },
@@ -397,7 +397,7 @@ async function createWorkspace({
   const eslintrcContent = `
 module.exports = {
   root: true,
-  extends: ['@mongodb-js/eslint-config-compass'],
+  extends: ['@cloud-mongodb-js/eslint-config-compass'],
   parserOptions: {
     tsconfigRootDir: __dirname,
     project: ['./tsconfig-lint.json'],
@@ -427,7 +427,7 @@ module.exports = compassPluginConfig;
   const indexSrcPath = path.join(indexSrcDir, 'index.ts');
   const indexSrcContent = isPlugin
     ? `
-import type AppRegistry from "hadron-app-registry";
+import type AppRegistry from "@cloud-mongodb-js/hadron-app-registry";
 
 function activate(appRegistry: AppRegistry): void {
   // Register plugin stores, roles, and components

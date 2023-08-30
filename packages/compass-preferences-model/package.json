@@ -44,8 +44,8 @@
     "reformat": "npm run prettier -- --write . && npm run eslint . --fix"
   },
   "dependencies": {
-    "@mongodb-js/compass-logging": "npm:@cloud-mongodb-js/compass-logging^1.1.5",
-    "@mongodb-js/compass-utils": "npm:@cloud-mongodb-js/compass-utils^0.3.0",
+    "@cloud-mongodb-js/compass-logging": "1.1.5",
+    "@cloud-mongodb-js/compass-utils": "^0.3.0",
     "ampersand-collection-filterable": "^0.3.0",
     "ampersand-model": "^8.0.1",
     "ampersand-rest-collection": "^6.0.0",
@@ -53,20 +53,20 @@
     "bson": "^5.2.0",
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
-    "storage-mixin": "npm:@cloud-mongodb-js/storage-mixin^5.1.4",
+    "@cloud-mongodb-js/storage-mixin": "^5.1.4",
     "yargs-parser": "^21.1.1"
   },
   "devDependencies": {
-    "@mongodb-js/compass-utils": "npm:@cloud-mongodb-js/compass-utils^0.3.0",
-    "@mongodb-js/eslint-config-compass": "npm:@cloud-mongodb-js/eslint-config-compass^1.0.5",
-    "@mongodb-js/mocha-config-compass": "npm:@cloud-mongodb-js/mocha-config-compass^1.1.1",
+    "@cloud-mongodb-js/compass-utils": "^0.3.0",
+    "@cloud-mongodb-js/eslint-config-compass": "^1.0.5",
+    "@cloud-mongodb-js/mocha-config-compass": "^1.1.1",
     "@testing-library/react": "^12.1.4",
     "@types/js-yaml": "^4.0.5",
     "@types/yargs-parser": "21.0.0",
     "chai": "^4.3.6",
     "depcheck": "^1.4.1",
     "eslint": "^7.25.0",
-    "hadron-ipc": "npm:@cloud-mongodb-js/hadron-ipc^3.1.2",
+    "@cloud-mongodb-js/hadron-ipc": "^3.1.2",
     "mocha": "^10.2.0",
     "react": "^17.0.2",
     "sinon": "^9.2.3"

@@ -21,7 +21,7 @@ import comments from './comments';
 import autoPreview from './auto-preview';
 import id from './id';
 import savedPipeline from './saved-pipeline';
-import appRegistry from '@mongodb-js/mongodb-redux-common/app-registry';
+import appRegistry from '@cloud-mongodb-js/mongodb-redux-common/app-registry';
 import settings from './settings';
 import savingPipeline from './saving-pipeline';
 import outResultsFn from './out-results-fn';

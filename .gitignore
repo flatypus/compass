@@ -32,6 +32,7 @@ mongodb-crypt
 # npm doesn't support nested npmrc in the monorepo
 packages/*/.npmrc
 config/*/.npmrc
+.npmrc
 .sbom
 .testserver
 .evergreen/logs

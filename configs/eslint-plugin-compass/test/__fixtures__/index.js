@@ -1,4 +1,4 @@
-/* eslint-disable @mongodb-js/compass/unique-mongodb-log-id */
+/* eslint-disable @cloud-mongodb-js/compass/unique-mongodb-log-id */
 /* global mongoLogId */
 mongoLogId(1);
 mongoLogId(2);

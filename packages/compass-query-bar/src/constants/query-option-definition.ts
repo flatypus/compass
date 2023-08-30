@@ -1,4 +1,4 @@
-import type { TextInput } from '@mongodb-js/compass-components';
+import type { TextInput } from '@cloud-mongodb-js/compass-components';
 import type { ComponentProps } from 'react';
 import React from 'react';
 import { usePreference } from 'compass-preferences-model';

@@ -5,7 +5,7 @@ import userEvent from '@testing-library/user-event';
 import { expect } from 'chai';
 import sinon from 'sinon';
 import type { SinonSpy } from 'sinon';
-import AppRegistry from 'hadron-app-registry';
+import AppRegistry from '@cloud-mongodb-js/hadron-app-registry';
 import QueryBar from './query-bar';
 import { Provider } from 'react-redux';
 import { configureStore } from '../stores/query-bar-store';

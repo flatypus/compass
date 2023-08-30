@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import type { TypeCastTypes } from 'hadron-type-checker';
+import type { TypeCastTypes } from '@cloud-mongodb-js/hadron-type-checker';
 import { Menu, MenuItem } from '@leafygreen-ui/menu';
 import { css, cx } from '@leafygreen-ui/emotion';
 import { spacing } from '@leafygreen-ui/tokens';

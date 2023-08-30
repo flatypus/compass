@@ -1,4 +1,4 @@
-import type AppRegistry from 'hadron-app-registry';
+import type AppRegistry from '@cloud-mongodb-js/hadron-app-registry';
 import { createStore as _createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import { DEFAULT_FIELD_VALUES } from '../constants/query-bar-store';

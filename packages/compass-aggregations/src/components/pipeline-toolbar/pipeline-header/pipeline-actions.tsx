@@ -5,7 +5,7 @@ import {
   MoreOptionsToggle,
   css,
   spacing,
-} from '@mongodb-js/compass-components';
+} from '@cloud-mongodb-js/compass-components';
 import type { RootState } from '../../../modules';
 import {
   exportAggregationResults,

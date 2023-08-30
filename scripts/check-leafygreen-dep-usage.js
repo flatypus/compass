@@ -3,7 +3,7 @@ const {
   collectWorkspacesDependencies,
 } = require('./workspace-dependencies');
 
-const compassComponentsWorkspaceName = '@mongodb-js/compass-components';
+const compassComponentsWorkspaceName = '@cloud-mongodb-js/compass-components';
 
 // Checks if any package except "compass-components" try to require
 // a `leafygreen-ui` or `emotion` dependency.
@@ -23,7 +23,7 @@ async function main() {
           // TODO: compass-shell requires @leafygreen-ui/code to be installed as
           // a dependency until we change how browser-repl is bundled
           // https://jira.mongodb.org/browse/COMPASS-5535
-          '@mongodb-js/compass-shell',
+          '@cloud-mongodb-js/compass-shell',
         ].includes(dependencyEntry.workspace) === false
       ) {
         process.exitCode = 1;

@@ -3,7 +3,7 @@ import { EventEmitter } from 'events';
 import { DEFAULT_QUERY_VALUES } from '../constants/query-bar-store';
 import { setQuery } from './query-bar-reducer';
 import configureStore from './query-bar-store';
-import type AppRegistry from 'hadron-app-registry';
+import type AppRegistry from '@cloud-mongodb-js/hadron-app-registry';
 
 describe('QueryBarStore [Store]', function () {
   describe('getCurrentQuery', function () {

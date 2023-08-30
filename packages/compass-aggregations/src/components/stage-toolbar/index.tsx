@@ -9,7 +9,7 @@ import {
   palette,
   useDarkMode,
   IconButton,
-} from '@mongodb-js/compass-components';
+} from '@cloud-mongodb-js/compass-components';
 import type { RootState } from '../../modules';
 import ToggleStage from './toggle-stage';
 import StageCollapser from './stage-collapser';

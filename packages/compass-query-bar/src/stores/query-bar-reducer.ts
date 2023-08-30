@@ -7,7 +7,7 @@ import type { QueryProperty } from '../constants/query-properties';
 import { QUERY_PROPERTIES } from '../constants/query-properties';
 import type { ThunkAction, ThunkDispatch } from 'redux-thunk';
 import React from 'react';
-import type AppRegistry from 'hadron-app-registry';
+import type AppRegistry from '@cloud-mongodb-js/hadron-app-registry';
 import queryParser from 'mongodb-query-parser';
 import preferences from 'compass-preferences-model';
 import { cloneDeep, isEqual } from 'lodash';

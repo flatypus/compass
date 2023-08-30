@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import PropTypes from 'prop-types';
-import HadronDocument from 'hadron-document';
+import HadronDocument from '@cloud-mongodb-js/hadron-document';
 import type { EditableDocumentProps } from './editable-document';
 import EditableDocument from './editable-document';
 import type { ReadonlyDocumentProps } from './readonly-document';

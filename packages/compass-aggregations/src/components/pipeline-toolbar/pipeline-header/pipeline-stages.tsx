@@ -10,7 +10,7 @@ import {
   spacing,
   Button,
   Icon,
-} from '@mongodb-js/compass-components';
+} from '@cloud-mongodb-js/compass-components';
 
 import type { RootState } from '../../../modules';
 import { editPipeline } from '../../../modules/workspace';
